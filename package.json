@@ -8,6 +8,13 @@
     "lib",
     "es"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpstream/hpvant-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hpstream/hpvant-ui/issues"
+  },
   "scripts": {
     "dev": "vant-cli dev",
     "test": "vant-cli test",
@@ -23,6 +30,11 @@
     "hooks": {
       "pre-commit": "lint-staged",
       "commit-msg": "vant-cli commit-lint"
+    }
+  },
+  "release-it": {
+    "github": {
+      "release": true
     }
   },
   "lint-staged": {
