@@ -1,6 +1,6 @@
 {
-  "name": "vant-ui",
-  "version": "1.0.0",
+  "name": "hpvant-ui",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/vant-ui.js",
   "style": "lib/index.css",
