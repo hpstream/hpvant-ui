@@ -1,11 +1,15 @@
+const path = require('path');
+
 module.exports = {
   name: 'vant-ui',
   build: {
     css: {
       preprocessor: 'less',
+      base: './theme/color.less',
     },
     site: {
       publicPath: '/vant-ui/',
+      outputDir: path.join(__dirname, 'build'),
     },
   },
   site: {
