@@ -32,11 +32,6 @@
       "commit-msg": "vant-cli commit-lint"
     }
   },
-  "release-it": {
-    "github": {
-      "release": true
-    }
-  },
   "lint-staged": {
     "*.{ts,tsx,js,jsx,vue}": [
       "eslint --fix",
