@@ -11,6 +11,7 @@ module.exports = {
       publicPath: '/hpvant-ui/',
       outputDir: path.join(__dirname, 'build'),
     },
+    skipInstall: ['demo-button'],
   },
   site: {
     title: 'hpvant-ui',
@@ -35,6 +36,10 @@ module.exports = {
           {
             path: 'demo-button',
             title: 'DemoButton 按钮',
+          },
+          {
+            path: 'svg-icon',
+            title: 'icon 图标',
           },
         ],
       },
