@@ -1,19 +1,19 @@
 const path = require('path');
 
 module.exports = {
-  name: 'vant-ui',
+  name: 'hpvant-ui',
   build: {
     css: {
       preprocessor: 'less',
       base: './theme/color.less',
     },
     site: {
-      publicPath: '/vant-ui/',
+      publicPath: '/hpvant-ui/',
       outputDir: path.join(__dirname, 'build'),
     },
   },
   site: {
-    title: 'vant-ui',
+    title: 'hpvant-ui',
     logo: 'https://img.yzcdn.cn/vant/logo.png',
     nav: [
       {
